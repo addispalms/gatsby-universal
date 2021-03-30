@@ -18,6 +18,20 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
+      {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        //other plugins
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `backgrounds`,
+        path: `${__dirname}/content/images`, // wherever background images are stored
+      },
+    },
+
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-webpack-size`,

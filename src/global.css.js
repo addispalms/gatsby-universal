@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import { accent } from 'constants/theme';
 
+
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -31,6 +32,7 @@ export default createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    background-color:pink; 
   }
 
   body {
@@ -46,6 +48,11 @@ export default createGlobalStyle`
     -webkit-font-feature-settings: "pnum";
     font-feature-settings: "pnum";
     font-variant-numeric: proportional-nums;
+  }
+
+  .alle {
+    background-color: pink;
+}
   }
 
   ol, ul {

@@ -16,7 +16,7 @@ export default function Swiping () {
 
 for (let i = 0; i < 5; i += 1) {
   slides.push(
-    <SwiperSlide key={`slide-${i}`}>
+    <SwiperSlide key={`aslide-${i}`}>
       <img
         src={`https://picsum.photos/id/${i + 1}/500/300`}
         style={{ listStyle: "none" }}

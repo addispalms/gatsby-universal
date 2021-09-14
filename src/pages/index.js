@@ -24,7 +24,7 @@ class MouseTracker extends React.Component {
     return (
       <>
       <div> 
-        <p> I wanted to do better than this. And I knew I could</p>
+        <p> I wanted to do better than this. And I knew I would</p>
         <Swiping /> 
       </div>
       <div style={{ height: '100vh' }} onMouseMove={this.handleMouseMove}>
